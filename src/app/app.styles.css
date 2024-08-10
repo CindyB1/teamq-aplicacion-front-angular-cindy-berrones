@@ -1,0 +1,142 @@
+body {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    height: 100vh;
+    margin: 0;
+    padding: 20px; 
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; 
+    margin-bottom: 20px; 
+}
+
+.box {
+    width: 90px;
+    height: 50px;
+    background-color: rgb(247, 248, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffffff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    -webkit-text-fill-color: rgb(182, 184, 185);
+    font-size: 14px; 
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center; 
+    margin-bottom: 20px; 
+}
+
+.caja, .caja2, .caja3 {
+    width: 565px; 
+    height: 465px; 
+    background-color: rgb(247, 248, 248); 
+    border: 2px solid #ffffff; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end; 
+    align-items: flex-start;
+    font-family: Arial, sans-serif; 
+    font-size: 24px; 
+    text-align: left;  
+    -webkit-text-fill-color: rgb(65, 64, 64); 
+    padding: 20px; 
+}
+
+.caja4 {
+    width: 550px; 
+    height: 450px; 
+    background-color: rgb(255, 255, 255);
+    border: 10px solid transparent;
+    border-radius: 70px;
+    border-image: linear-gradient(to right, 
+        #ff69b4, 
+        #ff0000, 
+        #ffff00, 
+        #00ff00, 
+        #08f0f0 
+    ) 1; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end; 
+    align-items: flex-start;
+    font-family: Arial, sans-serif; 
+    font-size: 24px; 
+    text-align: left; 
+    -webkit-text-fill-color: rgb(65, 64, 64);
+    padding: 20px; 
+}
+
+.caja button, .caja2 button, .caja3 button, .caja4 button {
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    background-color: #f0f0f0;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; 
+    text-align: left; 
+}
+
+.caja button:hover, .caja2 button:hover, .caja3 button:hover, .caja4 button:hover {
+    background-color: #ffffff;
+}
+
+h1, h3 {
+    margin: 0; 
+    padding: 0; 
+}
+
+h3 {
+    margin-top: 10px; 
+}
+
+.title-container2 {
+    width: 100%; 
+    text-align: left; 
+    margin-top: 20px; 
+    -webkit-text-fill-color: rgb(65, 64, 64);
+    padding-left: 3rem;
+}
+
+.box2-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que el contenido se ajuste en una sola línea */
+    justify-content: center;
+    gap: 20px; /* Espacio entre los elementos */
+    margin-top: 20px; /* Espacio encima del contenedor */
+}
+
+.box2-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.box2 {
+    width: 90px;
+    height: 90px;
+    background-color: rgb(236, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+.box2-text {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 16px;
+    -webkit-text-fill-color: rgb(65, 64, 64);
+}
